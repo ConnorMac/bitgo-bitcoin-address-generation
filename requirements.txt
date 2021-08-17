@@ -1,0 +1,2 @@
+git+git://github.com/spesmilo/electrum.git@3.3.8#egg=electrum
+bitcoinlib==0.5.3
