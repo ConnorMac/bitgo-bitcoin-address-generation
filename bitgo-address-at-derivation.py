@@ -5,6 +5,7 @@ from bitcoinlib.keys import Address, BKeyError, HDKey, check_network_and_key, pa
 from bitcoinlib.transactions import serialize_multisig_redeemscript
 
 set_mainnet()
+# To get all the xpub use the BitGo CLI and generate a new address. The JSON result will contain all the xpubs and address types.
 bitgo_xpub=''
 backup_xpub=''
 user_xpub=''
